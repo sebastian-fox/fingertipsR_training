@@ -1,4 +1,4 @@
-FROM rocker/rstudio:3.6.0
+FROM rocker/binder:3.6.0
 LABEL maintainer='Unknown'
 USER root
 COPY . ${HOME}
